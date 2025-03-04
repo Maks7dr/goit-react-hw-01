@@ -1,0 +1,31 @@
+.transactionHistory {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 100%;
+  border: 1px solid #000000;
+  overflow: hidden;
+}
+.thead {
+  width: 100%;
+  background-color: #292929;
+  color: white;
+}
+.tbody {
+  width: 100%;
+}
+.tr {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.th {
+  flex-basis: calc(100% / 3);
+}
+.td {
+  flex-basis: calc(100% / 3);
+  border: 1px solid #000000;
+}
+.tr:nth-child(2n) {
+  background-color: #bababa;
+}
