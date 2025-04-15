@@ -1,0 +1,11 @@
+.title {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.online {
+  color: green;
+}
+.offline {
+  color: red;
+}
